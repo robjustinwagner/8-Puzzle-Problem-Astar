@@ -1,7 +1,8 @@
 
-public class HammingHeuristic implements AStarHeuristic{
-	public int getCost(Board state, Board goalState)
-	{
+public class HammingHeuristic implements AStarHeuristic {
+	
+	public int getCost(Board state, Board goalState) {
+		
 		int cost = 0;
 		
 		//[state.rows,state.columns] should equal [goalState.rows,goalState.columns]
